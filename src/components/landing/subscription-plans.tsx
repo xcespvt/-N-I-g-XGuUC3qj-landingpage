@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check, Star } from "lucide-react";
@@ -67,10 +66,10 @@ export default function SubscriptionPlans() {
             Whether you're just starting or ready to scale, we have a plan that fits your needs.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-start">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
             {/* Starter Plan */}
-            <Card className="p-2 bg-background relative border-2">
-                <CardHeader className="p-6">
+            <Card className="h-full flex flex-col">
+                <CardHeader className="p-6 pb-0">
                     <CardTitle className="text-2xl font-headline text-primary">Starter Plan</CardTitle>
                     <CardDescription>For single restaurants, cafés, home chefs, and cloud kitchens starting digital growth.</CardDescription>
                      <div className="flex items-baseline gap-2 pt-4">
@@ -79,7 +78,7 @@ export default function SubscriptionPlans() {
                     </div>
                     <p className="text-sm text-muted-foreground mt-1">+ 18% GST</p>
                 </CardHeader>
-                <CardContent className="p-6 pt-0">
+                <CardContent className="p-6 pt-6 flex-1 flex flex-col">
                     <div className="space-y-6">
                         {starterPerks.map((perkCategory, index) => (
                             <div key={index}>
@@ -96,12 +95,12 @@ export default function SubscriptionPlans() {
             </Card>
 
             {/* Growth Plan */}
-            <Card className="p-2 bg-background relative border-2 border-primary shadow-2xl shadow-primary/20">
+            <Card className="h-full flex flex-col border-2 border-primary shadow-2xl shadow-primary/20 relative">
                  <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 animate-glow" variant="default">
                     <Star className="h-4 w-4 mr-2" />
                     Most Popular
                 </Badge>
-                <CardHeader className="p-6">
+                <CardHeader className="p-6 pb-0">
                     <CardTitle className="text-2xl font-headline text-primary">Growth Plan</CardTitle>
                     <CardDescription>For multi-outlet brands, franchises, and scaling kitchens.</CardDescription>
                      <div className="flex items-baseline gap-2 pt-4">
@@ -111,7 +110,7 @@ export default function SubscriptionPlans() {
                      <p className="text-sm text-muted-foreground mt-1">+ 18% GST</p>
                     <p className="text-sm font-semibold pt-2 text-primary">Everything in Starter ₹399 Plan PLUS:</p>
                 </CardHeader>
-                <CardContent className="p-6 pt-0">
+                <CardContent className="p-6 pt-6 flex-1 flex flex-col">
                    <div className="space-y-6">
                         {growthPerks.map((perkCategory, index) => (
                             <div key={index}>

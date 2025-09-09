@@ -1,4 +1,3 @@
-
 import type {Config} from 'tailwindcss';
 import plugin from 'tailwindcss/plugin';
 
@@ -18,6 +17,10 @@ export default {
       },
     },
     extend: {
+      textShadow: {
+        glow: '0 0 10px #39ff14, 0 0 20px #39ff14',
+        'neon-green-glow': '0 0 4px hsl(var(--primary)), 0 0 8px hsl(var(--primary))',
+      },
       fontFamily: {
         body: ['var(--font-pt-sans)'],
         headline: ['var(--font-poppins)'],
@@ -116,9 +119,6 @@ export default {
         'marquee-left': 'marquee-left 25s linear infinite',
         'marquee-right': 'marquee-right 25s linear infinite',
       },
-      textShadow: {
-        glow: '0 0 4px hsl(var(--primary)), 0 0 8px hsl(var(--primary))',
-      }
     },
   },
   plugins: [
