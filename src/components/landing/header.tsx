@@ -61,7 +61,6 @@ export default function Header() {
               <div className="flex items-center p-4 border-b">
                  <Link href="/" className="flex items-center gap-3">
                     <Logo />
-                    <span className="text-2xl font-bold font-headline">Crevings</span>
                 </Link>
               </div>
               <div className="flex-1 p-4 space-y-4">
