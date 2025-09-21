@@ -1,5 +1,6 @@
 import Header from "@/components/landing/header";
 import Footer from "@/components/landing/footer";
+import { IndianRupee } from "lucide-react";
 
 export default function TermsPage() {
   return (
@@ -128,7 +129,7 @@ export default function TermsPage() {
                   <ul className="space-y-3 mt-4">
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
-                      <span>₹399/month (plus 18% GST = ₹470.82 total) billed monthly.</span>
+                      <span><IndianRupee className="h-4 w-4 inline mr-1" />399/month (plus 18% GST = <IndianRupee className="h-4 w-4 inline mr-1" />470.82 total) billed monthly.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
@@ -153,7 +154,7 @@ export default function TermsPage() {
                   <ul className="space-y-3 mt-4">
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
-                      <span>Crevings charges customers a ₹0 platform fee per order to cover app/tech/maintenance charges.</span>
+                      <span>Crevings charges customers a <IndianRupee className="h-4 w-4 inline mr-1" /> 0 platform fee per order to cover app/tech/maintenance charges.</span>
                     </li>
                   </ul>
                 </section>

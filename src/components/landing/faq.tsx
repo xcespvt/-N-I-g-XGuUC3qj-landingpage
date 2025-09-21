@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Plus } from "lucide-react";
+import { Plus, IndianRupee } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const faqs = [
@@ -20,7 +20,7 @@ const faqs = [
   {
     question: "How does the flat monthly subscription work?",
     answer:
-      "Our subscription is a predictable monthly fee of ₹399 + GST. This single charge gives you full access to our platform and its benefits, regardless of how many orders you receive. There are no other hidden charges.",
+      `Our subscription is a predictable monthly fee of {<IndianRupee className="h-4 w-4 inline" />} 399 + GST. This single charge gives you full access to our platform and its benefits, regardless of how many orders you receive. There are no other hidden charges.`,
   },
   {
     question: "Who handles the delivery logistics?",

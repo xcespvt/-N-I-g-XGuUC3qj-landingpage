@@ -1,10 +1,9 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle2, XCircle } from "lucide-react";
+import { CheckCircle2, XCircle, IndianRupee } from "lucide-react";
 
 const crevingsBenefits = [
     "0% commission model — keep your profits",
-    "Flat subscription (₹399 + GST) with predictable costs",
+    <span key="price" className="inline-flex items-center">Flat subscription (<IndianRupee className="h-4 w-4 inline mr-1" />399 + GST) with predictable costs</span>,
     "Transparent pricing, no inflated menu rates",
     "Access to delivery, takeaway, and dine-in bookings",
     "End-to-end ecosystem support (marketing, logistics, service hubs)",
