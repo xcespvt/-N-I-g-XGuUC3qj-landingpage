@@ -56,10 +56,9 @@ export default function Footer() {
                 </p>
                 <div className="text-sm text-muted-foreground space-y-2 pt-4">
                     <p>
-                       Lower Ground Floor, Saket Salcon, Rasvilas, next to Select Citywalk Mall, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, Delhi 110017.
+                       Innov8 Ras Vilas Lower, Grd F,Salcon Rasvilas D1, Saket (South Delhi), New Delhi, South Delhi- 110017, Delhi
                     </p>
-                    <p><strong>CIN:</strong> 26272728BDGSH27</p>
-                    <p><strong>GST:</strong> 2626272AHEHE</p>
+                    <p><strong>CIN:</strong> U63122DL2025PTC456623</p>
                 </div>
             </div>
             <div className="md:col-span-1">

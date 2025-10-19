@@ -12,10 +12,12 @@ import Faq from "@/components/landing/faq";
 import DownloadApp from "@/components/landing/download-app";
 import WhoIsEligible from "@/components/landing/who-is-eligible";
 import Comparison from "@/components/landing/comparison";
+import UnderDevelopment from "@/components/landing/under-development";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
+      <UnderDevelopment />
       <Header />
       <main className="flex-1">
         <Hero />
