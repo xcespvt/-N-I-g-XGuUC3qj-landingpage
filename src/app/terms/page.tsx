@@ -154,7 +154,7 @@ export default function TermsPage() {
                   <ul className="space-y-3 mt-4">
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
-                      <span>Crevings charges customers a <IndianRupee className="h-4 w-4 inline mr-1" /> 0 platform fee per order to cover app/tech/maintenance charges.</span>
+                      <span>Crevings charges customers a <IndianRupee className="h-4 w-4 inline mr-1" /> 5 - 20 (INR) platform fees per order to cover app/tech/maintenance charges.</span>
                     </li>
                   </ul>
                 </section>
