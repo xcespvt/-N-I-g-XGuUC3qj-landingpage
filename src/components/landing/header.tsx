@@ -37,6 +37,7 @@ const navLinks: { name: string, href: string }[] = [
 
 const policyLinks = [
     { name: "Terms & Conditions", href: "/terms" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Payout Policy", href: "/payout-policy" },
     { name: "Refund Policy", href: "/refund-policy" },
 ]

@@ -195,7 +195,7 @@ export default function TermsPage() {
                   <ul className="space-y-3 mt-4">
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
-                      <span>The Crevings name, logo, platform design, and all official branding elements are the exclusive intellectual property of Crevings Pvt. Ltd.</span>
+                      <span>The Crevings name, logo, platform design, and all official branding elements are the exclusive intellectual property of CREVINGS MARKETPLACE PRIVATE LIMITED.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-primary mr-2">•</span>
