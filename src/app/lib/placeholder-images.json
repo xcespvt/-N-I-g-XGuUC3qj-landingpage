@@ -1,0 +1,119 @@
+
+{
+    "whyPartner1": {
+        "src": "https://images.unsplash.com/photo-1654331046048-808327ff7e66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21taXNzaW9uJTIwZnJlZXxlbnwwfHx8fDE3NjIwMDE5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "commission free"
+    },
+    "whyPartner2": {
+        "src": "https://images.unsplash.com/photo-1641443640609-39b661f9aacc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYWlyJTIwcHJpY2luZ3xlbnwwfHx8fDE3NjIwMDE5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "fair pricing"
+    },
+    "whyPartner3": {
+        "src": "https://images.unsplash.com/photo-1695654390723-479197a8c4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fHx8MTc2MTkzNTM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "food delivery"
+    },
+    "whyPartner4": {
+        "src": "https://images.unsplash.com/photo-1715635845783-a184542d95e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjdXN0b21lciUyMHN1cHBvcnR8ZW58MHx8fHwxNzYxOTM2NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "customer support"
+    },
+    "whyPartner5": {
+        "src": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwY29va2luZ3xlbnwwfHx8fDE3NjIwMDE5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "home cooking"
+    },
+    "whyPartner6": {
+        "src": "https://images.unsplash.com/photo-1462899006636-339e08d1844e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidXNpbmVzcyUyMGdyb3d0aHxlbnwwfHx8fDE3NjE5MzEzODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "business growth"
+    },
+    "whyPartner7": {
+        "src": "https://images.unsplash.com/photo-1759689843207-e193168bf0c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJhbmQlMjBwcm9tb3Rpb24lMjBhZHZlcnRpc2luZ3xlbnwwfHx8fDE3NjIwMDE5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "brand promotion advertising"
+    },
+    "deliveryPartner1": {
+        "src": "https://picsum.photos/seed/dp1/600/400",
+        "aiHint": "delivery person scooter"
+    },
+    "benefitFlexibleHours": {
+        "src": "https://picsum.photos/seed/bfh/600/400",
+        "aiHint": "person relaxing clock"
+    },
+    "benefitCompetitiveEarnings": {
+        "src": "https://picsum.photos/seed/bce/600/400",
+        "aiHint": "money stack graph"
+    },
+    "benefitWeeklyPayments": {
+        "src": "https://picsum.photos/seed/bwp/600/400",
+        "aiHint": "calendar money"
+    },
+    "benefitCommunitySupport": {
+        "src": "https://picsum.photos/seed/bcs/600/400",
+        "aiHint": "people community"
+    },
+    "appIconUser": {
+        "src": "https://picsum.photos/seed/appuser/128/128",
+        "aiHint": "app icon"
+    },
+    "appIconPartner": {
+        "src": "https://picsum.photos/seed/apppartner/128/128",
+        "aiHint": "app icon"
+    },
+    "appIconDelivery": {
+        "src": "https://picsum.photos/seed/appdelivery/128/128",
+        "aiHint": "app icon"
+    },
+    "qrCode": {
+        "src": "https://picsum.photos/seed/qrcode/200/200",
+        "aiHint": "qr code"
+    },
+    "aboutHero": {
+        "src": "https://picsum.photos/seed/aboutHero/1200/600",
+        "aiHint": "team working collaboration"
+    },
+    "aboutUs": {
+        "src": "https://picsum.photos/seed/aboutus/800/600",
+        "aiHint": "restaurant kitchen"
+    },
+    "mission": {
+        "src": "https://picsum.photos/seed/mission/800/600",
+        "aiHint": "team collaboration"
+    },
+    "teamPhoto": {
+        "src": "https://picsum.photos/seed/teamPhoto/800/600",
+        "aiHint": "diverse team"
+    },
+    "leader1": {
+        "src": "https://picsum.photos/seed/leader1/200/200",
+        "aiHint": "professional headshot"
+    },
+    "leader2": {
+        "src": "https://picsum.photos/seed/leader2/200/200",
+        "aiHint": "professional headshot"
+    },
+    "leader3": {
+        "src": "https://picsum.photos/seed/leader3/200/200",
+        "aiHint": "professional headshot"
+    },
+    "leader4": {
+        "src": "https://picsum.photos/seed/leader4/200/200",
+        "aiHint": "professional headshot"
+    },
+    "teamCollage": {
+        "src": "https://picsum.photos/seed/teamCollage/800/600",
+        "aiHint": "diverse team"
+    },
+    "benefitFoodChoices": {
+        "src": "https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwYnVmZmV0fGVufDB8fHx8MTc2MTYyMjc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "food buffet"
+    },
+    "benefitFairPrices": {
+        "src": "https://images.unsplash.com/photo-1715635846028-f162249377c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGN1c3RvbWVyJTIwcGF5aW5nfGVufDB8fHx8MTc2MTYyMjc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "happy customer paying"
+    },
+    "benefitSeamless": {
+        "src": "https://images.unsplash.com/photo-1533022422823-39f3ad778be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjB1c2luZyUyMHBob25lfGVufDB8fHx8MTc2MTYyMjc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "person using phone"
+    },
+    "benefitHomeCooked": {
+        "src": "https://images.unsplash.com/photo-1636475735446-bfc801fa6f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMG1lYWx8ZW58MHx8fHwxNzYxNjIyNzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "aiHint": "homemade meal"
+    }
+}

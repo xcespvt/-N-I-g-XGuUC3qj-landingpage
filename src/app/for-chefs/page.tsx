@@ -3,6 +3,9 @@ import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 import Header from "@/components/landing/header";
 import Footer from "@/components/landing/footer";
+import DocumentsRequired from "@/components/landing/documents-required";
+import HomeChefFaq from "@/components/landing/home-chef-faq";
+import placeholderImages from "@/app/lib/placeholder-images.json";
 
 const features = [
   { name: "Monetize Your Passion", description: "Turn your love for cooking into a rewarding business from your home." },
@@ -53,7 +56,7 @@ export default function ForChefsPage() {
                         </ul>
                     </div>
                      <div className="relative h-96 w-full rounded-lg overflow-hidden shadow-2xl">
-                         <Image src="https://placehold.co/600x400.png" alt="Home chef cooking" layout="fill" objectFit="cover" data-ai-hint="home kitchen cooking" />
+                         <Image src={placeholderImages.whyPartner5.src} alt="Home chef cooking" fill style={{ objectFit: 'cover' }} data-ai-hint={placeholderImages.whyPartner5.aiHint} />
                     </div>
                 </div>
             </div>
@@ -74,6 +77,9 @@ export default function ForChefsPage() {
                 </div>
             </div>
         </section>
+
+        <DocumentsRequired partnerType="restaurant" />
+        <HomeChefFaq />
 
         <section className="py-20 md:py-28 text-center">
             <div className="container">

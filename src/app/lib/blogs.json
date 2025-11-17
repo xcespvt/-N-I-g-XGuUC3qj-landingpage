@@ -1,0 +1,54 @@
+
+[
+    {
+        "slug": "why-we-chose-zero-commission",
+        "title": "The Philosophy Behind Crevings: Why We Chose 0% Commission",
+        "date": "2025-07-25",
+        "category": "Our Mission",
+        "author": "Aarav Sharma, CEO",
+        "summary": "Discover the core belief that drives our 0% commission model and how it’s creating a fairer, more sustainable food delivery ecosystem for everyone involved.",
+        "content": [
+            "When we first envisioned Crevings, we started with a simple question: How can we build a platform that truly serves its partners? The food delivery industry was booming, but behind the convenience, a story of struggle was unfolding for many restaurant owners. Exorbitant commissions, often as high as 30-40%, were eating into their already thin margins, making it nearly impossible for small, independent businesses to thrive.",
+            "We saw an opportunity to do things differently. Our 0% commission model isn't just a pricing strategy; it's a statement of our values. We believe that restaurants should keep the profits they rightfully earn. By charging a flat, affordable subscription fee, we align our success with our partners' success. When they grow, we grow. This transparent approach fosters trust and empowers restaurants to invest back into their food, their staff, and their future.",
+            "This philosophy extends to our entire ecosystem. From providing home chefs with a dedicated platform like 'Mom's Magic' to offering data-driven insights that help businesses understand their local customers, every feature is designed to level the playing field. We're not just a service provider; we're a partner in growth, committed to building a collaborative community where good food and fair practices win."
+        ],
+        "image": {
+            "src": "https://picsum.photos/seed/blog1/1200/630",
+            "aiHint": "happy restaurant owner"
+        }
+    },
+    {
+        "slug": "guide-to-food-photography",
+        "title": "A Guide to Food Photography for Your Crevings Menu",
+        "date": "2025-08-05",
+        "category": "Partner Tips",
+        "author": "Riya Mehta, Marketing Head",
+        "summary": "Learn simple yet effective food photography tips that can make your menu stand out, attract more customers, and increase your online orders on Crevings.",
+        "content": [
+            "In the world of online food delivery, your menu's photos are the first taste a customer gets. Great images can make the difference between a scroll-past and a sale. But you don't need a professional studio to take mouth-watering pictures. With a smartphone and a few simple techniques, you can create stunning visuals that do your food justice.",
+            "First, lighting is everything. Natural daylight is your best friend. Position your dish near a window, but avoid direct, harsh sunlight. Use a white piece of cardboard or a reflector to bounce light back and soften shadows. Second, think about your composition. The 'rule of thirds' is a classic for a reason. Imagine your frame is divided into a 3x3 grid and place your main dish at the intersection points. Don't be afraid to get close and capture the texture and detail of the food.",
+            "Finally, styling matters. Use simple, clean backgrounds that don't distract from the dish. A rustic wooden board, a simple ceramic plate, or a clean tablecloth can work wonders. Garnish your dish with fresh herbs or a sprinkle of spice to add a touch of color and freshness. By investing a little time in your photography, you can create a menu that's as visually appealing as it is delicious."
+        ],
+        "image": {
+            "src": "https://picsum.photos/seed/blog2/1200/630",
+            "aiHint": "food photography setup"
+        }
+    },
+    {
+        "slug": "empowering-home-chefs-with-moms-magic",
+        "title": "How 'Mom's Magic' is Empowering Home Chefs Across the Country",
+        "date": "2025-08-20",
+        "category": "Community",
+        "author": "Priya Singh, Home Chef",
+        "summary": "Read the inspiring story of how our 'Mom's Magic' initiative is helping talented home cooks turn their passion for food into a fulfilling and profitable venture.",
+        "content": [
+            "For years, my kitchen was my sanctuary. I poured my heart into cooking for my family, perfecting recipes passed down through generations. My friends and family always told me I should start my own food business, but the idea of competing with established restaurants felt daunting. Then I discovered the 'Mom's Magic' section on Crevings, and everything changed.",
+            "'Mom's Magic' isn't just a category; it's a community. It's a platform that celebrates the unique flavors and love that go into home-cooked meals. Setting up my profile was simple, and the Crevings team provided me with all the support I needed, from packaging guidance to marketing tips. For the first time, I felt like my culinary skills were truly valued on a professional level.",
+            "Within weeks, I was receiving orders from my neighbors and people across my city who were craving authentic, homemade food. The feedback has been incredible, and the financial independence it has given me is empowering. Crevings has given me and hundreds of other home chefs the opportunity to share our passion with the world, one delicious meal at a time. It's more than a business; it's a dream come true."
+        ],
+        "image": {
+            "src": "https://picsum.photos/seed/blog3/1200/630",
+            "aiHint": "smiling home chef"
+        }
+    }
+]

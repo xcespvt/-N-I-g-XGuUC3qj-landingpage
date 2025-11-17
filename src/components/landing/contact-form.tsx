@@ -32,7 +32,7 @@ const formSchema = z.object({
   language: z.string({ required_error: "Please select a language." }),
   reason: z.string({ required_error: "Please select a reason." }),
   message: z.string(),
-  role: z.enum(["existing_partner", "new_partner"], {
+  role: z.enum(["existing_partner", "new_partner", "delivery_partner", "new_delivery_partner", "customer_feedback"], {
     required_error: "You need to select an option.",
   }),
   agree: z.boolean().refine((val) => val === true, {
@@ -201,7 +201,7 @@ export default function ContactForm() {
                         "flex flex-col items-start justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground",
                         field.value === 'existing_partner' && "border-primary"
                     )}>
-                        <span className="font-semibold">I'm a Crevings food partner</span>
+                        <span className="font-semibold">I'm a Food Partner</span>
                         <span className="text-sm text-muted-foreground mt-1">I have a query about my account.</span>
                     </Label>
                   </FormItem>
@@ -213,8 +213,44 @@ export default function ContactForm() {
                         "flex flex-col items-start justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground",
                         field.value === 'new_partner' && "border-primary"
                     )}>
-                        <span className="font-semibold">I want to onboard with Crevings</span>
-                        <span className="text-sm text-muted-foreground mt-1">I'm interested in becoming a partner.</span>
+                        <span className="font-semibold">I want to be a Food Partner</span>
+                        <span className="text-sm text-muted-foreground mt-1">I'm interested in onboarding.</span>
+                    </Label>
+                  </FormItem>
+                   <FormItem>
+                     <FormControl>
+                       <RadioGroupItem value="delivery_partner" id="delivery_partner" className="peer sr-only" />
+                    </FormControl>
+                    <Label htmlFor="delivery_partner" className={cn(
+                        "flex flex-col items-start justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground",
+                        field.value === 'delivery_partner' && "border-primary"
+                    )}>
+                        <span className="font-semibold">I'm a Delivery Partner</span>
+                        <span className="text-sm text-muted-foreground mt-1">I have a query about my account.</span>
+                    </Label>
+                  </FormItem>
+                  <FormItem>
+                     <FormControl>
+                       <RadioGroupItem value="new_delivery_partner" id="new_delivery_partner" className="peer sr-only" />
+                    </FormControl>
+                    <Label htmlFor="new_delivery_partner" className={cn(
+                        "flex flex-col items-start justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground",
+                        field.value === 'new_delivery_partner' && "border-primary"
+                    )}>
+                        <span className="font-semibold">I want to be a Delivery Partner</span>
+                        <span className="text-sm text-muted-foreground mt-1">I'm interested in joining.</span>
+                    </Label>
+                  </FormItem>
+                   <FormItem>
+                     <FormControl>
+                       <RadioGroupItem value="customer_feedback" id="customer_feedback" className="peer sr-only" />
+                    </FormControl>
+                    <Label htmlFor="customer_feedback" className={cn(
+                        "flex flex-col items-start justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground",
+                        field.value === 'customer_feedback' && "border-primary"
+                    )}>
+                        <span className="font-semibold">I'm a Customer</span>
+                        <span className="text-sm text-muted-foreground mt-1">I have feedback or a question.</span>
                     </Label>
                   </FormItem>
                 </RadioGroup>

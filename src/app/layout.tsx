@@ -3,6 +3,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { Poppins, PT_Sans } from 'next/font/google'
+import { ToastProvider } from '@/components/ui/toast';
 
 export const metadata: Metadata = {
   title: 'Crevings Landing',
@@ -30,9 +31,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`scroll-smooth ${poppins.variable} ${ptSans.variable}`} suppressHydrationWarning>
-      <body className="font-body antialiased">
-        {children}
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <body className={`font-body antialiased relative ${poppins.variable} ${ptSans.variable}`}>
+        <ToastProvider>
+          {children}
+        </ToastProvider>
         <Toaster />
       </body>
     </html>

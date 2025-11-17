@@ -1,0 +1,51 @@
+
+[
+    {
+        "slug": "crevings-launches-in-gurgaon",
+        "title": "Crevings officially launches in Gurgaon, bringing 0% commission to food partners!",
+        "date": "2025-07-21",
+        "category": "Company News",
+        "summary": "We are thrilled to announce that Crevings is now live in Gurgaon. Our mission to empower local restaurants with a 0% commission platform takes a major step forward.",
+        "content": [
+            "Today marks a significant milestone for Crevings as we officially launch our services in Gurgaon. This expansion is a crucial part of our mission to create a fair and transparent ecosystem for food partners across India. For too long, restaurants have been burdened with exorbitant commission fees, and we are here to change that.",
+            "With our 0% commission model, restaurants in Gurgaon can now keep their hard-earned profits and grow their business on their own terms. We believe this will not only benefit the restaurants but also provide more affordable and diverse food options for customers. Our platform offers a full suite of tools to manage everything from orders and deliveries to marketing and customer engagement.",
+            "We invite all restaurant owners, home chefs, and food entrepreneurs in Gurgaon to join our revolution. Let's build a better food delivery ecosystem together."
+        ],
+        "image": {
+            "src": "https://picsum.photos/seed/announcement1/1200/630",
+            "aiHint": "cityscape Gurgaon"
+        }
+    },
+    {
+        "slug": "expanding-to-mumbai-and-bangalore",
+        "title": "Coming Soon: Crevings is expanding to Mumbai and Bangalore!",
+        "date": "2025-08-15",
+        "category": "Expansion",
+        "summary": "Get ready, Mumbai and Bangalore! Crevings is bringing its revolutionary 0% commission platform to your cities. We are excited to partner with local food businesses and offer a fairer alternative.",
+        "content": [
+            "The response from our launch in Gurgaon has been overwhelming, and we are excited to announce our next phase of expansion. Crevings will be launching in Mumbai and Bangalore soon! We are currently in the process of onboarding restaurant partners and setting up our logistics network in these vibrant cities.",
+            "Our goal is to replicate the success we've seen in Gurgaon and provide a platform that truly values its partners. The food scenes in Mumbai and Bangalore are legendary, and we can't wait to be a part of them. We are committed to supporting the local food economy and helping businesses thrive.",
+            "If you are a restaurant owner or home chef in Mumbai or Bangalore, you can pre-register on our platform to get early access and special onboarding benefits. Stay tuned for more updates on our official launch dates!"
+        ],
+        "image": {
+            "src": "https://picsum.photos/seed/announcement2/1200/630",
+            "aiHint": "cityscape Mumbai"
+        }
+    },
+    {
+        "slug": "seed-funding-announcement",
+        "title": "Crevings secures $5 million in seed funding to fuel its expansion",
+        "date": "2025-09-01",
+        "category": "Funding",
+        "summary": "We are excited to announce that Crevings has raised $5 million in a seed funding round. This investment will accelerate our mission to build a fair and transparent food delivery ecosystem.",
+        "content": [
+            "Crevings has successfully closed a $5 million seed funding round led by Pioneer Ventures, with participation from AngelList India and several prominent angel investors. This new capital will be instrumental in fueling our expansion across major Indian cities, enhancing our technology platform, and growing our team.",
+            "This funding is a testament to the strength of our vision and the hard work of our team. We are deeply grateful for the trust our investors have placed in us. Our 0% commission model has resonated strongly with food partners, and this investment will allow us to bring our platform to even more businesses.",
+            "We are more committed than ever to our mission of empowering local restaurants and home chefs. The future of food delivery is fair, transparent, and collaborative, and Crevings is proud to be at the forefront of this change."
+        ],
+        "image": {
+            "src": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxGb29kfGVufDB8fHx8MTc2MTUzODQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "aiHint": "food"
+        }
+    }
+]

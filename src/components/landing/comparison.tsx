@@ -1,9 +1,11 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle2, XCircle, IndianRupee } from "lucide-react";
+import { CheckCircle2, XCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const crevingsBenefits = [
     "0% commission model — keep your profits",
-    <span key="price" className="inline-flex items-center">Flat subscription (<IndianRupee className="h-4 w-4 inline mr-1" />399 + GST) with predictable costs</span>,
+    "Flat subscription (₹399 + GST) with predictable costs",
     "Transparent pricing, no inflated menu rates",
     "Access to delivery, takeaway, and dine-in bookings",
     "End-to-end ecosystem support (marketing, logistics, service hubs)",
@@ -29,7 +31,8 @@ export default function Comparison() {
     <section id="comparison" className="py-12 sm:py-20 lg:py-24">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">
+            <Button variant="outline" className="rounded-full mb-4 border-primary text-primary hover:bg-primary/10 hover:text-primary font-bold" disabled>Comparison</Button>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-headline">
                 Why Choose Crevings Over Others
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -38,7 +41,7 @@ export default function Comparison() {
         </div>
 
         <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <Card className="bg-primary/10 border-primary/30">
+            <Card className="bg-primary/10 border-primary/30 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/10">
                 <CardHeader>
                     <CardTitle className="text-2xl font-headline text-primary">Crevings</CardTitle>
                 </CardHeader>
@@ -53,7 +56,7 @@ export default function Comparison() {
                     </ul>
                 </CardContent>
             </Card>
-            <Card className="bg-muted/50 border-border">
+            <Card className="bg-muted/50 border-border transition-all duration-300 hover:scale-105">
                 <CardHeader>
                     <CardTitle className="text-2xl font-headline text-muted-foreground">Others</CardTitle>
                 </CardHeader>
